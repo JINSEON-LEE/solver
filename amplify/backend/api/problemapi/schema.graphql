@@ -1,0 +1,11 @@
+type Problem @model {
+  id: ID!
+  subject: String!
+  user: String!
+  name: String!
+  regist: AWSDate!
+  deadline: AWSDate!
+  description: String
+  image: String
+  solved: Boolean!
+}
